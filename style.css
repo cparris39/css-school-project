@@ -1,0 +1,53 @@
+.T{
+  color: ##000000;
+  border: 10px solid #000000;
+  margin: 20px;
+  padding: 20px;
+}
+.TT{
+  border: 10px solid #000000;
+  border-radius: 50%;
+  size: 25mm;
+  margin-left: auto;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #77b8e9;
+  border: #000000;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #0091ff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border: #000000;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+a:hover, a:active {
+  background-color: black;
+  color: #77b8e9;
+  font-family: fantasy;
+  <span style="cursor:pointer">pointer</span><br>
+}
+.TTT {
+  height:50% ;
+  width:50% ;
+  border: 10px solid #000000;
+  border-radius: 50%;
+  size: 25mm;
+   margin-right: auto;
+  height: 200px;
+  width: 25%;
+}
